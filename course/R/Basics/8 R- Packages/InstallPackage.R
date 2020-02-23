@@ -1,0 +1,6 @@
+setRepositories()
+install.packages("plyr")
+install.packages(c("ggplot2","randomForest","RColorBrewer"))
+install.packages("devtools")
+library(devtools)
+install_github("slidify","ramnathv")
